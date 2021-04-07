@@ -106,7 +106,7 @@ color: white;
 /* home */
 .home{
     color: rgb(10, 10, 68);
-    background: url("banner2.png") no-repeat center ;
+    background: url("images/banner2.png") no-repeat center ;
     height: 100vh;
     min-height: 500px;
     display: flex;
@@ -201,6 +201,7 @@ box-shadow:3px 3px  rgb(10, 10, 68);
     transition: all 0.3s ease;
     font-weight: 500;
 }
+
 .about .about-content .right a:hover,
 .skills .skills-content .left a:hover {
 background: transparent;
@@ -208,6 +209,13 @@ color: rgb(10, 10, 68);
 }
 /* end of about section  */
 /* all similar  content styling code */
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+}
 .about,.services,.skills,.projects,.contact,footer{
     font-family: 'Poppins',sans-serif;
 }
@@ -319,6 +327,7 @@ section .title{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-shadow: 2px 2px gray;
 }
 .skills .skills-content .left p{
     text-align: justify;
@@ -470,6 +479,7 @@ margin: 10px 0 7px 0;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-shadow: 2px 2px gray;
 }
 .contact .contact-content .left p{
 text-align: center;
